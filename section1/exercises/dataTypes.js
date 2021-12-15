@@ -66,6 +66,8 @@ console.log("hello" === "Hello");
 
 // YOU DO: log to the console the result of 3 is not equal to 4:
 console.log(3 != 4);
+console.log(3 != '3');
+console.log(3 !== '3');
 
 // YOU DO: log to the console the result of 4 is less than or equal to 5:
 console.log(4 <= 5);
