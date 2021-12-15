@@ -16,10 +16,34 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {
+
+}
+var breed = new Dog();
+console.log(breed);
+
+var age = new Dog();
+console.log(age);
 
 // Prompt 2: Snack
+class Snack {
+
+}
+var cheezit = new Snack();
+console.log(cheezit);
+
+var goldfish = new Snack();
+console.log(goldfish);
 
 // Prompt 3: Shirt
+class Shirt {
+
+}
+var shortSleeve = new Shirt();
+console.log(shortSleeve);
+
+var longSleeve = new Shirt();
+console.log(longSleeve);
 
 //-------------------
 // Part 2: Properties
@@ -33,10 +57,39 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+class DogInfo {
+  constructor() {
+    this.breed = 'Golden Retreiver';
+    this.age = 3;
+    this.name = "Leon";
+  }
+}
+
+var breed = new DogInfo();
+console.log(breed);
 
 // Prompt 2: Snack
 
+class SnackType {
+  constructor() {
+    this.chip = 'kettle cooked chip';
+    this.cracker = 'cheezit';
+    this.wafer = 'vanilla wafer';
+  }
+}
+var cracker = new SnackType();
+console.log(cracker);
+
 // Prompt 3: Shirt
+class ShirtClass {
+  constructor() {
+    this.sleeve = 'long sleeve';
+    this.color = 'blue';
+    this.storePurchased = 'Nordstrom';
+  }
+}
+var favoriteShirt = new ShirtClass();
+console.log(favoriteShirt);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -51,7 +104,38 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class DogDynamic {
+  constructor(lbs, inchesTall) {
+    this.weight = lbs;
+    this.height = inchesTall;
+  }
+}
+var dogInfo = new DogDynamic(60, 24);
+console.log(dogInfo);
+var dogLarge = new DogDynamic(120, 48);
+console.log(dogLarge);
 
 // Prompt 2: Snack
+class SnackDynamic {
+  constructor(count, cals) {
+    this.snackCount = count;
+    this.calories = cals;
+  }
+}
+var snackHealthy = new SnackDynamic(15, 115);
+console.log(snackHealthy);
+var snackUnhealthy = new SnackDynamic(50, 700);
+console.log(snackUnhealthy);
 
 // Prompt 3: Shirt
+class ShirtDynamic {
+  constructor(size, type, clr) {
+    this.shirtSize = size;
+    this.sleeveLenth = type;
+    this.color = clr;
+  }
+}
+var shirtWarmWeather = new ShirtDynamic('Medium', 'Short Sleeve', 'Yellow');
+console.log(shirtWarmWeather);
+var shirtColdWeather = new ShirtDynamic('Small', 'Long Sleeve', 'Red');
+console.log(shirtColdWeather);
