@@ -29,8 +29,9 @@ console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-console.log(animals.pop());
-var count = animals.push('Lion');
+animals.pop();
+//console.log(animals.pop()); <-- should not use array methods in console log as it is an informative command
+var count = animals.push('Gorilla');
 console.log(count);
 console.log(animals);
 
@@ -40,7 +41,9 @@ console.log(animals);
 
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-console.log(animals.unshift("Elephant"));
+
+animals.unshift('Elephant');
+//console.log(animals.unshift("Elephant")); <-- should not use array methods in console log as it is an informative command
 console.log(animals);
 
 
@@ -58,22 +61,26 @@ console.log(foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-console.log(foods.push("Broccoli"));
+foods.push('Broccoli');
+//console.log(foods.push("Broccoli"));
 console.log(foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-console.log(foods.pop());
+foods.pop();
+//console.log(foods.pop());
 console.log(foods);
 
 // YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-console.log(foods.unshift('Cereal', 'Oatmeal', 'Waffles'));
+foods.unshift('Cereal', 'Oatmeal', 'Waffles');
+//console.log(foods.unshift('Cereal', 'Oatmeal', 'Waffles'));
 console.log(foods);
 
 // YOU DO: Remove the food that is in index position 0.
-console.log(foods.shift());
+foods.shift();
+//console.log(foods.shift());
 console.log(foods);
 
 
@@ -128,7 +135,7 @@ if (hasCharger === true && chargerType === "car") {
   console.log("Your Uber is on its way!");
   // if the above coniditions meet this if statement, "your uber is on its way" will be returned.
   // if the above code returns false, then the below statement runs. It's asking if the user does not have a car charger and the batter percentage is less than 15,
-  // the user will not be able to call an uber and the message "you are unable to call an uber" is returned. 
+  // the user will not be able to call an uber and the message "you are unable to call an uber" is returned.
 } else if (hasCharger === false && chargerType != "car" && percentBatteryLeft < 15) {
   console.log("You are unable to call an Uber");
 }
