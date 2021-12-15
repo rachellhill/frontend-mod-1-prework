@@ -19,13 +19,13 @@ var weather = 'cloudy';
 // While working through this example, I would toggle which variable declaration is
   // commented in/out and run the program in node several times to observe the output.
 
-if (weather == 'sunny') {
+if (weather === 'sunny') {
   console.log('sunscreen');
-} else if (weather == 'rainy') {
+} else if (weather === 'rainy') {
   console.log('umbrella');
-} else if (weather == 'snowy') {
+} else if (weather === 'snowy') {
   console.log('coat');
-} else if (weather == 'icy') {
+} else if (weather === 'icy') {
   console.log('yak traks');
 } else{
   console.log('good to go!');
@@ -90,13 +90,11 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 2;
-var hasSauce = false;
+var cupsOfFlour = 1;
+var hasSauce = true;
 
 // Write your conditional here
-if (cupsOfFlour === 1 && hasSauce === true) {
-  console.log('I cannot make pizza');
-} else if (cupsOfFlour === 1 && hasSauce === false) {
+if (cupsOfFlour <= 1) {
   console.log('I cannot make pizza');
 } else if (cupsOfFlour >= 2 && hasSauce === true) {
   console.log('I can make pizza');

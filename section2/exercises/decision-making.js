@@ -38,14 +38,14 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
-In this test, there are two possible outcomes: if door #1 is chosen, then the bear chooses to wear the hat. The else statement is run only if the door choice is not #1.So, if door bearChoice
+In this program, there are two possible outcomes: if door #1 is chosen, then the bear chooses to wear the hat. The else statement is run only if the door choice is not #1.So, if door bearChoice
 is #2, then the bear will choose to wear the scarf.
 2. What variable has a new value assigned to it after the first if statement executes?
 bearClothing has a new variable assigned to it after the first if statement executes.
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 The value of bearClothing would be a scarf because the hat can only be chosen by the bear if doorChoice is strictly equal to 1.
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-In this test, the code is asking in line 27 if the bearChoice is strictly equal to 1, then the message returned will say "you offer the bear your scarf and the bear shows you a secret passage out"
+In this program, the code is asking in line 27 if the bearChoice is strictly equal to 1, then the message returned will say "you offer the bear your scarf and the bear shows you a secret passage out"
 If the choice does not equal 1 but equals 2, line 30 will return the message "you tell the bear the scarf is too small and it starts to cry!"
 If the choice does not equal 2 but equals 3, line 29 will return the message "you run as fast as you can into the next roo. It's full of snakes!"
 If the choice does not equal 1, 2, OR 3, then any other choice will return the message "you stay with the bear and become best friends!" in line 34.

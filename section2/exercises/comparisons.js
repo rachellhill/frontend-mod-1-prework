@@ -87,21 +87,21 @@ console.log(4 < 9);
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-// Assigned variable books equals to 3. Asking if 4 is less than 3.
-// this should log: false
+// Declare a variable books assign to number 3. Return the boolean answer when asked if 4 is less than 3.
+// this should output: false
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-// Assigned friends variable equal to 6 and siblings variable equal to 2. Asking if friends is greater than siblings.
-// this should log: true
+// Declare a variable named friends assigned to 6 and declare a siblings variable assigned to 2. Return boolean output if friends is greater than siblings.
+// this should return: true
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-// Assigned attendees variable equal to 9 and meals variable equal to 8
+// Declare a variables named attendees and assign to 9. Declare a second variable named meals and assign to 8
 // asking if attendees does not equal meals
-// this should log: true
+// this should output: true
 
 //-------------------
 // PART 3: Logical Operators
@@ -146,4 +146,4 @@ console.log(lovesToPlay && isPuppy);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
-// yes, there was a typo in lines 88-100 that was console.logs() but I fixed it on my end and cannot remember which had the typo. 
+// yes, there was a typo in lines 88-100 that was console.logs() but I fixed it on my end and cannot remember which had the typo.
