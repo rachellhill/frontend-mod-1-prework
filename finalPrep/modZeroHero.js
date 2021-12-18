@@ -96,7 +96,7 @@ assessSituation(3, announcement, excuse);
 //   - luckyNumbers (array)
 //   - address (object with following key/values: number , street , state, zip)
 
-var ScaryMonster = {
+var scaryMonster = {
   name: "Cookie Monster",
   smell: "sweet vanilla",
   weight: 500,
@@ -109,8 +109,8 @@ var ScaryMonster = {
     zip: 80202
   }
 };
-console.log(ScaryMonster.address);
-
+console.log(scaryMonster.address);
+s
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
 //   - name

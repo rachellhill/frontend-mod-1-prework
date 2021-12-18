@@ -25,7 +25,7 @@ function buildABear(name, age, fur, clothes, specialPower) {
   //end of function
 }
 
-// create two object instances of buildABear that passes through the parameter's arguments.
+// Call the function buildABear that passes through the parameter's arguments.
 buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares');
 buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in');
 
